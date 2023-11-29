@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+@media screen and (max-width:598px) {
+    html{
+      font-size: 45%;
+    }
+}
+input{
+    width: 30rem;
+    height: 5rem;
+    outline: none;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+    margin: 3rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+select{
+    font-size: 1.8rem;
+    width: 30rem;
+    height: 4rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 3rem;
+}
+button{
+    font-size: 1.9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 30rem;
+    height: 5rem;
+    color: white;
+    background-color: rebeccapurple;
+    border-radius: 9px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+    &:hover{
+        scale: 1.2;
+        background-color: green;
+    }
+
+}
+h1{
+    font-size: 3rem;
+    font-family: monospace;
+}

@@ -1,0 +1,17 @@
+@import "flex";
+.todos-home{
+    @include flexdata;
+    width: 100vw;
+    min-width: 50rem;
+    min-height:100vh;
+    height: auto;
+    background-color: antiquewhite;
+}
+.todo-link{
+    font-size: 2rem;
+    color: red;
+    margin: 2rem;
+    &:hover{
+        color: green;
+    }
+}

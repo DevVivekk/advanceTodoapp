@@ -1,0 +1,53 @@
+@import "flex";
+.update-todo-div{
+    @include flexdata;
+    width: 100vw;
+    min-width: 50rem;
+    position: relative;
+    height: auto;
+    background-color: rgb(249, 159, 204);
+    color: white;
+    font-size: 2rem;
+    min-height: 100vh;
+    svg{
+        color: black;
+        cursor: pointer;
+        &:hover{
+            color: green;
+        }
+    }
+    h2{
+        color: green;
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 4rem;
+        font-style: italic;
+    }
+}
+.my-div-todo{
+    @include flexdata;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3rem;
+}
+.main-todo-div{
+    background-color: white;
+    color: black;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 7px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.update-todo-div-show-popup{
+    width: 100vw;
+    min-width: 50rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pagination-div{
+    @include flexdata();
+    flex-direction: row;
+}
